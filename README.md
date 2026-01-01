@@ -1,13 +1,13 @@
 # 🎡 Shishu Mela Operations & Performance Analysis
 
 ## 📌 Project Overview
-This project analyzes operational data from **Shishu Mela**, a theme park, to understand visitor behavior, spending patterns, and satisfaction levels. Using a simulated dataset of **200 visitors**, I performed statistical hypothesis testing using **SPSS** and built a predictive model using **BigML** to optimize ride allocation and marketing strategies.
+This project analyzes operational data from **Shishu Mela**, a theme park, to understand visitor behavior, spending patterns, and satisfaction levels. Using a simulated dataset of **200 visitors**, I developed an interactive **Power BI Dashboard**, performed statistical hypothesis testing using **SPSS**, and built a predictive model using **BigML**.
 
 ## 🛠 Tools & Technologies
-* **Data Cleaning:** Microsoft Excel
+* **Data Visualization:** Microsoft Power BI (Dashboard & DAX)
 * **Statistical Analysis:** IBM SPSS Statistics
 * **Machine Learning:** BigML (Decision Tree)
-* **Presentation:** Microsoft PowerPoint / Gamma
+* **Data Cleaning:** Microsoft Excel
 
 ## 📂 Dataset Description
 The dataset contains **200 records** with the following key attributes:
@@ -16,6 +16,20 @@ The dataset contains **200 records** with the following key attributes:
 * `Ticket_Price`: Amount spent on tickets.
 * `Ride_Name`: The specific ride chosen by the visitor.
 * `Satisfaction_Score`: Rated on a scale of 1 to 5.
+
+---
+
+## 📈 Interactive Dashboard (Power BI)
+
+I designed a dynamic Power BI dashboard to visualize the park's daily operations and KPIs.
+
+### 🔑 Key Features:
+* **Revenue Tracking:** Visualized total ticket sales and revenue trends.
+* **Ride Popularity:** Analyzed which rides are most preferred by different age groups using bar charts.
+* **Customer Demographics:** Breakdown of visitors by Gender and Age.
+* **KPIs:** Calculated Average Satisfaction Score and Total Footfall using DAX measures.
+
+![Power BI Dashboard](Images/powerbi_dashboard.png)
 
 ---
 
@@ -52,8 +66,7 @@ I conducted three specific statistical tests to validate business hypotheses:
 To predict visitor preferences, I constructed a **Decision Tree** model using BigML.
 
 * **Target Variable:** `Ride_Name`
-* **Predictors:** `Age`, `Gender`
-* **Outcome:** The model successfully generated rules to predict which ride a visitor is likely to choose based on their age group (e.g., Children <10 prefer 'Toy Train', Teenagers prefer '3D Cinema').
+* **Outcome:** The model generated rules to predict which ride a visitor is likely to choose based on their age group (e.g., Children <10 prefer 'Toy Train', Teenagers prefer '3D Cinema').
 
 ![Decision Tree Model](Images/decision_tree.png)
 
@@ -62,13 +75,14 @@ To predict visitor preferences, I constructed a **Decision Tree** model using Bi
 ## 🚀 Key Business Insights
 1.  **High Satisfaction:** The management is doing well in maintaining customer happiness (Score > 3).
 2.  **Universal Pricing:** Since gender doesn't affect spending, marketing campaigns can be gender-neutral.
-3.  **Targeted Operations:** The Decision Tree reveals distinct preferences by age, allowing for better queue management and targeted ride promotions.
+3.  **Targeted Operations:** The Decision Tree reveals distinct preferences by age, allowing for better queue management.
 
 ---
 
 ## 👨‍💻 Author
 **[Your Name]**
-* **Portfolio:** [Link to your Portfolio/LinkedIn]
+* **Portfolio:** [Link to your Portfolio]
+* **LinkedIn:** [Link to your LinkedIn]
 * **Email:** [Your Email]
 
 Feel free to star ⭐ this repository if you find the analysis useful!
