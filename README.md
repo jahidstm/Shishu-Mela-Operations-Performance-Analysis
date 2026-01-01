@@ -43,21 +43,21 @@ I conducted three specific statistical tests to validate business hypotheses:
 * **Result:** With a mean score of **3.42** and a significance value of **<.001**, we rejected the Null Hypothesis.
 * **Insight:** Visitors are **significantly satisfied** with the park's services.
 
-![One Sample Test Output](Images/spss_onesample.jpg)
+![One Sample Test Output](Images/sample-t-test.png)
 
 ### 2. Independent Samples T-Test (Spending Behavior)
 * **Objective:** To analyze if there is a significant difference in spending between Boys and Girls.
 * **Result:** The significance value (p-value) was **.302** (> 0.05).
 * **Insight:** There is **no significant difference** in spending behavior based on gender. Both groups spend roughly the same amount.
 
-![Independent Sample Test Output](Images/spss_ttest.jpg)
+![Independent Sample Test Output](Images/Indepdent-sample-test.png)
 
 ### 3. Linear Regression (Age vs. Spending)
 * **Objective:** To predict Ticket Price based on Visitor Age.
 * **Result:** The analysis showed a weak linear relationship (R-Square near 0.01, Sig .164).
 * **Insight:** Age is not a strong predictor of spending in this specific dataset; visitors of all ages choose a mix of expensive and affordable rides.
 
-![Regression Output](Images/spss_regression.png)
+![Regression Output](Images/Regression.png)
 
 ---
 
@@ -68,7 +68,7 @@ To predict visitor preferences, I constructed a **Decision Tree** model using Bi
 * **Target Variable:** `Ride_Name`
 * **Outcome:** The model generated rules to predict which ride a visitor is likely to choose based on their age group (e.g., Children <10 prefer 'Toy Train', Teenagers prefer '3D Cinema').
 
-![Decision Tree Model](Images/decision_tree.png)
+![Decision Tree Model](Images/decision-tree.png)
 
 ---
 
@@ -80,9 +80,8 @@ To predict visitor preferences, I constructed a **Decision Tree** model using Bi
 ---
 
 ## 👨‍💻 Author
-**[Your Name]**
-* **Portfolio:** [Link to your Portfolio]
-* **LinkedIn:** [Link to your LinkedIn]
-* **Email:** [Your Email]
+**[Jahid Hasan]**
+* **LinkedIn:** https://www.linkedin.com/in/jahidstm/
+* **Email:** jahidhasanstm@gmail.com
 
 Feel free to star ⭐ this repository if you find the analysis useful!
